@@ -28,7 +28,7 @@ GETTING THE TOOL
 ----------------
 Clone the repository using Git:
 
-> git clone https://github.com/NxtDevStudios/ShrinkTexturesTool.git
+> git clone https://github.com/Jmerc89/ShrinkTexture.git
 
 Or download the repository as a ZIP from GitHub and extract it locally.
 
