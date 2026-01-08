@@ -24,6 +24,14 @@ FEATURES
 - Can display supported formats on the current machine (magick -list format)
 - Automatically skips common engine cache/build folders (Unity / Unreal / tooling)
 
+GETTING THE TOOL
+----------------
+Clone the repository using Git:
+
+> git clone https://github.com/NxtDevStudios/ShrinkTexturesTool.git
+
+Or download the repository as a ZIP from GitHub and extract it locally.
+
 INCLUDED FILES
 --------------
 - ShrinkTextures.cmd  -> Double-click launcher (recommended)
@@ -50,7 +58,9 @@ REQUIREMENTS
 HOW TO USE
 ----------
 Option A: Process the folder the script is placed in
-1) Copy ShrinkTextures.cmd and ShrinkTextures.ps1 into the folder you want to process.
+1) Copy ShrinkTextures.cmd and ShrinkTextures.ps1 from the cloned repository
+   into the folder you want to process.
+
    Example:
    D:\Project\Assets\SomeAssetPack\Textures\
 
@@ -92,7 +102,7 @@ OPTIONS (WHAT THEY MEAN)
   Applies stronger PNG compression (slower, smaller output). PNG only.
 
 - Skip files containing "Normal":
-  Useful to avoid resizing normal maps automatically.
+  Useful if you want to avoid resizing normal maps automatically.
 
 - Pixel art mode:
   Uses nearest-neighbor scaling. Recommended only for pixel art.
